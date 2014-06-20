@@ -1,5 +1,5 @@
 //
-//  HCGViewController.h
+//  HCGWishListTableViewCell.h
 //  wedocracy-ios-test-hanchong
 //
 //  Created by ZH on 6/20/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HCGViewController : UIViewController
+@interface HCGWishListTableViewCell : UITableViewCell
 
 @end
