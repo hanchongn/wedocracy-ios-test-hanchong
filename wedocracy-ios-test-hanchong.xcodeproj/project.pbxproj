@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F948CB571953C35E0085FDBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F948CB561953C35E0085FDBD /* Foundation.framework */; };
+		F948CB591953C35E0085FDBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F948CB581953C35E0085FDBD /* CoreGraphics.framework */; };
+		F948CB5B1953C35E0085FDBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F948CB5A1953C35E0085FDBD /* UIKit.framework */; };
+		F948CB611953C35E0085FDBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F948CB5F1953C35E0085FDBD /* InfoPlist.strings */; };
+		F948CB631953C35E0085FDBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F948CB621953C35E0085FDBD /* main.m */; };
+		F948CB671953C35F0085FDBD /* HCGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F948CB661953C35F0085FDBD /* HCGAppDelegate.m */; };
+		F948CB6A1953C35F0085FDBD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F948CB681953C35F0085FDBD /* Main_iPhone.storyboard */; };
+		F948CB6D1953C35F0085FDBD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F948CB6B1953C35F0085FDBD /* Main_iPad.storyboard */; };
+		F948CB701953C35F0085FDBD /* HCGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F948CB6F1953C35F0085FDBD /* HCGViewController.m */; };
+		F948CB721953C35F0085FDBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F948CB711953C35F0085FDBD /* Images.xcassets */; };
+		F948CB791953C35F0085FDBD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F948CB781953C35F0085FDBD /* XCTest.framework */; };
+		F948CB7A1953C35F0085FDBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F948CB561953C35E0085FDBD /* Foundation.framework */; };
+		F948CB7B1953C35F0085FDBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F948CB5A1953C35E0085FDBD /* UIKit.framework */; };
+		F948CB831953C35F0085FDBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F948CB811953C35F0085FDBD /* InfoPlist.strings */; };
+		F948CB851953C35F0085FDBD /* wedocracy_ios_test_hanchongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F948CB841953C35F0085FDBD /* wedocracy_ios_test_hanchongTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F948CB7C1953C35F0085FDBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F948CB4B1953C35E0085FDBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F948CB521953C35E0085FDBD;
+			remoteInfo = "wedocracy-ios-test-hanchong";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F948CB531953C35E0085FDBD /* wedocracy-ios-test-hanchong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wedocracy-ios-test-hanchong.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F948CB561953C35E0085FDBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F948CB581953C35E0085FDBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F948CB5A1953C35E0085FDBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F948CB5E1953C35E0085FDBD /* wedocracy-ios-test-hanchong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wedocracy-ios-test-hanchong-Info.plist"; sourceTree = "<group>"; };
+		F948CB601953C35E0085FDBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F948CB621953C35E0085FDBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F948CB641953C35E0085FDBD /* wedocracy-ios-test-hanchong-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wedocracy-ios-test-hanchong-Prefix.pch"; sourceTree = "<group>"; };
+		F948CB651953C35F0085FDBD /* HCGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCGAppDelegate.h; sourceTree = "<group>"; };
+		F948CB661953C35F0085FDBD /* HCGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCGAppDelegate.m; sourceTree = "<group>"; };
+		F948CB691953C35F0085FDBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		F948CB6C1953C35F0085FDBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		F948CB6E1953C35F0085FDBD /* HCGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCGViewController.h; sourceTree = "<group>"; };
+		F948CB6F1953C35F0085FDBD /* HCGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCGViewController.m; sourceTree = "<group>"; };
+		F948CB711953C35F0085FDBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F948CB771953C35F0085FDBD /* wedocracy-ios-test-hanchongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wedocracy-ios-test-hanchongTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F948CB781953C35F0085FDBD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F948CB801953C35F0085FDBD /* wedocracy-ios-test-hanchongTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wedocracy-ios-test-hanchongTests-Info.plist"; sourceTree = "<group>"; };
+		F948CB821953C35F0085FDBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F948CB841953C35F0085FDBD /* wedocracy_ios_test_hanchongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wedocracy_ios_test_hanchongTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F948CB501953C35E0085FDBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F948CB591953C35E0085FDBD /* CoreGraphics.framework in Frameworks */,
+				F948CB5B1953C35E0085FDBD /* UIKit.framework in Frameworks */,
+				F948CB571953C35E0085FDBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F948CB741953C35F0085FDBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F948CB791953C35F0085FDBD /* XCTest.framework in Frameworks */,
+				F948CB7B1953C35F0085FDBD /* UIKit.framework in Frameworks */,
+				F948CB7A1953C35F0085FDBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F948CB4A1953C35E0085FDBD = {
+			isa = PBXGroup;
+			children = (
+				F948CB5C1953C35E0085FDBD /* wedocracy-ios-test-hanchong */,
+				F948CB7E1953C35F0085FDBD /* wedocracy-ios-test-hanchongTests */,
+				F948CB551953C35E0085FDBD /* Frameworks */,
+				F948CB541953C35E0085FDBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F948CB541953C35E0085FDBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F948CB531953C35E0085FDBD /* wedocracy-ios-test-hanchong.app */,
+				F948CB771953C35F0085FDBD /* wedocracy-ios-test-hanchongTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F948CB551953C35E0085FDBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F948CB561953C35E0085FDBD /* Foundation.framework */,
+				F948CB581953C35E0085FDBD /* CoreGraphics.framework */,
+				F948CB5A1953C35E0085FDBD /* UIKit.framework */,
+				F948CB781953C35F0085FDBD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F948CB5C1953C35E0085FDBD /* wedocracy-ios-test-hanchong */ = {
+			isa = PBXGroup;
+			children = (
+				F948CB651953C35F0085FDBD /* HCGAppDelegate.h */,
+				F948CB661953C35F0085FDBD /* HCGAppDelegate.m */,
+				F948CB681953C35F0085FDBD /* Main_iPhone.storyboard */,
+				F948CB6B1953C35F0085FDBD /* Main_iPad.storyboard */,
+				F948CB6E1953C35F0085FDBD /* HCGViewController.h */,
+				F948CB6F1953C35F0085FDBD /* HCGViewController.m */,
+				F948CB711953C35F0085FDBD /* Images.xcassets */,
+				F948CB5D1953C35E0085FDBD /* Supporting Files */,
+			);
+			path = "wedocracy-ios-test-hanchong";
+			sourceTree = "<group>";
+		};
+		F948CB5D1953C35E0085FDBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F948CB5E1953C35E0085FDBD /* wedocracy-ios-test-hanchong-Info.plist */,
+				F948CB5F1953C35E0085FDBD /* InfoPlist.strings */,
+				F948CB621953C35E0085FDBD /* main.m */,
+				F948CB641953C35E0085FDBD /* wedocracy-ios-test-hanchong-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F948CB7E1953C35F0085FDBD /* wedocracy-ios-test-hanchongTests */ = {
+			isa = PBXGroup;
+			children = (
+				F948CB841953C35F0085FDBD /* wedocracy_ios_test_hanchongTests.m */,
+				F948CB7F1953C35F0085FDBD /* Supporting Files */,
+			);
+			path = "wedocracy-ios-test-hanchongTests";
+			sourceTree = "<group>";
+		};
+		F948CB7F1953C35F0085FDBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F948CB801953C35F0085FDBD /* wedocracy-ios-test-hanchongTests-Info.plist */,
+				F948CB811953C35F0085FDBD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F948CB521953C35E0085FDBD /* wedocracy-ios-test-hanchong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F948CB881953C35F0085FDBD /* Build configuration list for PBXNativeTarget "wedocracy-ios-test-hanchong" */;
+			buildPhases = (
+				F948CB4F1953C35E0085FDBD /* Sources */,
+				F948CB501953C35E0085FDBD /* Frameworks */,
+				F948CB511953C35E0085FDBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wedocracy-ios-test-hanchong";
+			productName = "wedocracy-ios-test-hanchong";
+			productReference = F948CB531953C35E0085FDBD /* wedocracy-ios-test-hanchong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F948CB761953C35F0085FDBD /* wedocracy-ios-test-hanchongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F948CB8B1953C35F0085FDBD /* Build configuration list for PBXNativeTarget "wedocracy-ios-test-hanchongTests" */;
+			buildPhases = (
+				F948CB731953C35F0085FDBD /* Sources */,
+				F948CB741953C35F0085FDBD /* Frameworks */,
+				F948CB751953C35F0085FDBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F948CB7D1953C35F0085FDBD /* PBXTargetDependency */,
+			);
+			name = "wedocracy-ios-test-hanchongTests";
+			productName = "wedocracy-ios-test-hanchongTests";
+			productReference = F948CB771953C35F0085FDBD /* wedocracy-ios-test-hanchongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F948CB4B1953C35E0085FDBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HCG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = HanChong;
+				TargetAttributes = {
+					F948CB761953C35F0085FDBD = {
+						TestTargetID = F948CB521953C35E0085FDBD;
+					};
+				};
+			};
+			buildConfigurationList = F948CB4E1953C35E0085FDBD /* Build configuration list for PBXProject "wedocracy-ios-test-hanchong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F948CB4A1953C35E0085FDBD;
+			productRefGroup = F948CB541953C35E0085FDBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F948CB521953C35E0085FDBD /* wedocracy-ios-test-hanchong */,
+				F948CB761953C35F0085FDBD /* wedocracy-ios-test-hanchongTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F948CB511953C35E0085FDBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F948CB6D1953C35F0085FDBD /* Main_iPad.storyboard in Resources */,
+				F948CB721953C35F0085FDBD /* Images.xcassets in Resources */,
+				F948CB6A1953C35F0085FDBD /* Main_iPhone.storyboard in Resources */,
+				F948CB611953C35E0085FDBD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F948CB751953C35F0085FDBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F948CB831953C35F0085FDBD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F948CB4F1953C35E0085FDBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F948CB631953C35E0085FDBD /* main.m in Sources */,
+				F948CB671953C35F0085FDBD /* HCGAppDelegate.m in Sources */,
+				F948CB701953C35F0085FDBD /* HCGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F948CB731953C35F0085FDBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F948CB851953C35F0085FDBD /* wedocracy_ios_test_hanchongTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F948CB7D1953C35F0085FDBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F948CB521953C35E0085FDBD /* wedocracy-ios-test-hanchong */;
+			targetProxy = F948CB7C1953C35F0085FDBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F948CB5F1953C35E0085FDBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F948CB601953C35E0085FDBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F948CB681953C35F0085FDBD /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F948CB691953C35F0085FDBD /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F948CB6B1953C35F0085FDBD /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F948CB6C1953C35F0085FDBD /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F948CB811953C35F0085FDBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F948CB821953C35F0085FDBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F948CB861953C35F0085FDBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F948CB871953C35F0085FDBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F948CB891953C35F0085FDBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wedocracy-ios-test-hanchong/wedocracy-ios-test-hanchong-Prefix.pch";
+				INFOPLIST_FILE = "wedocracy-ios-test-hanchong/wedocracy-ios-test-hanchong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F948CB8A1953C35F0085FDBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wedocracy-ios-test-hanchong/wedocracy-ios-test-hanchong-Prefix.pch";
+				INFOPLIST_FILE = "wedocracy-ios-test-hanchong/wedocracy-ios-test-hanchong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F948CB8C1953C35F0085FDBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wedocracy-ios-test-hanchong.app/wedocracy-ios-test-hanchong";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wedocracy-ios-test-hanchong/wedocracy-ios-test-hanchong-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "wedocracy-ios-test-hanchongTests/wedocracy-ios-test-hanchongTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F948CB8D1953C35F0085FDBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wedocracy-ios-test-hanchong.app/wedocracy-ios-test-hanchong";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wedocracy-ios-test-hanchong/wedocracy-ios-test-hanchong-Prefix.pch";
+				INFOPLIST_FILE = "wedocracy-ios-test-hanchongTests/wedocracy-ios-test-hanchongTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F948CB4E1953C35E0085FDBD /* Build configuration list for PBXProject "wedocracy-ios-test-hanchong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F948CB861953C35F0085FDBD /* Debug */,
+				F948CB871953C35F0085FDBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F948CB881953C35F0085FDBD /* Build configuration list for PBXNativeTarget "wedocracy-ios-test-hanchong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F948CB891953C35F0085FDBD /* Debug */,
+				F948CB8A1953C35F0085FDBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F948CB8B1953C35F0085FDBD /* Build configuration list for PBXNativeTarget "wedocracy-ios-test-hanchongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F948CB8C1953C35F0085FDBD /* Debug */,
+				F948CB8D1953C35F0085FDBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F948CB4B1953C35E0085FDBD /* Project object */;
+}
